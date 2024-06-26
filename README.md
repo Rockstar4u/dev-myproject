@@ -163,12 +163,29 @@ To comply with ECC, CCC, and GDPR regulations, we need to create separate Infras
 
 
 
-Key Points:
-•	Two separate VPCs, one for Europe and one for China.
-•	Security groups tailored for each region.
-•	Instances deployed in each region with IAM roles and policies.
-•	Logging, monitoring, and encryption implemented for compliance.
+Key Points of the Architecture:
+•	Two separate VPCs: One for Europe and one for China.
+•	Security groups: Tailored for each region.
+•	Instances: Deployed in each region with IAM roles and policies.
+•	Logging, monitoring, and encryption: Implemented for compliance.
 
+Infrastructure Components:
+1.	VPCs
+2.	Subnets
+3.	Internet Gateways
+4.	Route Tables
+5.	Security Groups
+6.	EC2 Instances
+7.	IAM Roles and Policies
+8.	S3 Buckets
+9.	RDS Instances
+10.	ALB (Application Load Balancers)
+11.	WAF (Web Application Firewall)
+12.	CloudTrail
+13.	CloudWatch
+14.	Guard Duty
+15.	KMS Keys
+16.	NAT Gateways
 
 
 
